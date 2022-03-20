@@ -1,0 +1,99 @@
+
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ position 44
+MY
+ position 48
+M
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ position 46
+M
+ NeaAllhlouxia: 
+Forward Strand
+
+ position 2
+MRSIGIPGVL
+Reverse Strand
+
+ position 48
+M
+ NeaAllhlouxia: 
+Forward Strand
+
+ position 46
+MReverse Strand
+
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ position 44
+MY
+ position 48
+M
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ position 46
+M
+ NeaAllhlouxia: 
+Forward Strand
+
+ position 2
+MRSIGIPGVL
+Reverse Strand
+
+ position 48
+M
+ NeaAllhlouxia: 
+Forward Strand
+
+ position 46
+MReverse Strand
+
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ position 44
+MY
+ position 48
+M
+ NeaAllhlouxia: 
+Forward Strand
+Reverse Strand
+
+ position 46
+M
+ NeaAllhlouxia: 
+Forward Strand
+
+ position 2
+MRSIGIPGVL
+Reverse Strand
+
+ position 48
+M
+ NeaAllhlouxia: 
+Forward Strand
+
+ position 46
+MReverse Strand
