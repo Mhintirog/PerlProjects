@@ -1,0 +1,360 @@
+ID   RECA_AZOL4              Reviewed;         359 AA.
+AC   P62209; G7Z545;
+DT   05-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2012, sequence version 2.
+DT   02-DEC-2020, entry version 87.
+DE   RecName: Full=Protein RecA {ECO:0000255|HAMAP-Rule:MF_00268};
+DE   AltName: Full=Recombinase A {ECO:0000255|HAMAP-Rule:MF_00268};
+GN   Name=recA {ECO:0000255|HAMAP-Rule:MF_00268}; OrderedLocusNames=AZOLI_1478;
+OS   Azospirillum lipoferum (strain 4B).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Rhodospirillaceae; Azospirillum.
+OX   NCBI_TaxID=862719;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION IN PHASE VARIATION, AND
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=4B;
+RX   PubMed=15251210; DOI=10.1111/j.1574-6968.2004.tb09660.x;
+RA   Vial L., Pothier J.F., Normand P., Moenne-Loccoz Y., Bally R.,
+RA   Wisniewski-Dye F.;
+RT   "Construction of a recA mutant of Azospirillum lipoferum and involvement of
+RT   recA in phase variation.";
+RL   FEMS Microbiol. Lett. 236:291-299(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=4B;
+RX   PubMed=22216014; DOI=10.1371/journal.pgen.1002430;
+RA   Wisniewski-Dye F., Borziak K., Khalsa-Moyers G., Alexandre G.,
+RA   Sukharnikov L.O., Wuichet K., Hurst G.B., McDonald W.H., Robertson J.S.,
+RA   Barbe V., Calteau A., Rouy Z., Mangenot S., Prigent-Combaret C.,
+RA   Normand P., Boyer M., Siguier P., Dessaux Y., Elmerich C., Condemine G.,
+RA   Krishnen G., Kennedy I., Paterson A.H., Gonzalez V., Mavingui P.,
+RA   Zhulin I.B.;
+RT   "Azospirillum genomes reveal transition of bacteria from aquatic to
+RT   terrestrial environments.";
+RL   PLoS Genet. 7:E1002430-E1002430(2011).
+CC   -!- FUNCTION: Can catalyze the hydrolysis of ATP in the presence of single-
+CC       stranded DNA, the ATP-dependent uptake of single-stranded DNA by duplex
+CC       DNA, and the ATP-dependent hybridization of homologous single-stranded
+CC       DNAs. It interacts with LexA causing its activation and leading to its
+CC       autocatalytic cleavage. {ECO:0000255|HAMAP-Rule:MF_00268,
+CC       ECO:0000269|PubMed:15251210}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00268}.
+CC   -!- DISRUPTION PHENOTYPE: Cells are more sensitive to UV and MMS, and have
+CC       no detectable recombinase activity. They are still able to generate
+CC       phase variants, as do wild-type cells, and surprisingly do so at a 10-
+CC       fold greater rate. Phase variants irreversibly lose the ability to
+CC       swim, and undergo changes in their sugar assimilation profile.
+CC       {ECO:0000269|PubMed:15251210}.
+CC   -!- SIMILARITY: Belongs to the RecA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00268}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY422794; AAR00257.1; -; Genomic_DNA.
+DR   EMBL; FQ311868; CBS86779.1; -; Genomic_DNA.
+DR   RefSeq; WP_014247796.1; NC_016622.1.
+DR   SMR; P62209; -.
+DR   EnsemblBacteria; CBS86779; CBS86779; AZOLI_1478.
+DR   KEGG; ali:AZOLI_1478; -.
+DR   HOGENOM; CLU_040469_1_2_5; -.
+DR   OMA; DYGEQAL; -.
+DR   OrthoDB; 1080436at2; -.
+DR   Proteomes; UP000005667; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008094; F:DNA-dependent ATPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003697; F:single-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd00983; recA; 1.
+DR   Gene3D; 3.30.250.10; -; 1.
+DR   HAMAP; MF_00268; RecA; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR013765; DNA_recomb/repair_RecA.
+DR   InterPro; IPR020584; DNA_recomb/repair_RecA_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020588; RecA_ATP-bd.
+DR   InterPro; IPR023400; RecA_C.
+DR   InterPro; IPR020587; RecA_monomer-monomer_interface.
+DR   PANTHER; PTHR45900; PTHR45900; 1.
+DR   Pfam; PF00154; RecA; 1.
+DR   PRINTS; PR00142; RECA.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54752; SSF54752; 1.
+DR   TIGRFAMs; TIGR02012; tigrfam_recA; 1.
+DR   PROSITE; PS00321; RECA_1; 1.
+DR   PROSITE; PS50162; RECA_2; 1.
+DR   PROSITE; PS50163; RECA_3; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cytoplasm; DNA damage; DNA recombination; DNA repair;
+KW   DNA-binding; Nucleotide-binding; Reference proteome; SOS response.
+FT   CHAIN           1..359
+FT                   /note="Protein RecA"
+FT                   /id="PRO_0000122645"
+FT   NP_BIND         77..84
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00268"
+FT   CONFLICT        173..175
+FT                   /note="SHV -> AMS (in Ref. 1; AAR00257)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        349..359
+FT                   /note="PEADGEASTPE -> RKPTAKPPHRSEVPSEQEARC (in Ref. 1;
+FT                   AAR00257)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   359 AA;  38137 MW;  13B27BE817A3A0F2 CRC64;
+     MSSAQLRLVE KDSMDKQKAL DAALSQIERA FGKGSIMKLG ARENLVETEV ISTGSLGLDI
+     ALGIGGLPKG RIVEIYGPES SGKTTLALHA IAQAQKAGGT CAFVDAEHAL DPSYARKLGV
+     NIDELLISQP DAGEQALEIA DTLVRSGAID VLVVDSVAAL VPRAELEGEM GDSHVGLHAR
+     LMSQALRKLT GSISKSNCLV IFINQIRLKI GVMFGNPETT TGGNALKFYA SVRLDIRRIG
+     SIKDRDTVVG NQTRVKVVKN KMAPPFRVVE FDIMYGEGVS KVGELLDLGI QAGVVDKSGA
+     WFSYDGTRIG QGRENAKTYL RNNPEMADAI EAKIRGNAGL VADAMMGTPE ADGEASTPE
+//
+ID   G7ZGX1_AZOL4            Unreviewed;       496 AA.
+AC   G7ZGX1;
+DT   25-JAN-2012, integrated into UniProtKB/TrEMBL.
+DT   25-JAN-2012, sequence version 1.
+DT   02-DEC-2020, entry version 51.
+DE   SubName: Full=Branched-chain amino acid ABC transporter, permease component {ECO:0000313|EMBL:CBS91166.1};
+DE   SubName: Full=Leucine/isoleucine/valine ABC transporter, permease component {ECO:0000313|EMBL:CBS90588.1};
+GN   Name=livM2 {ECO:0000313|EMBL:CBS90588.1};
+GN   Synonyms=livM1 {ECO:0000313|EMBL:CBS91166.1};
+GN   OrderedLocusNames=AZOLI_p40192 {ECO:0000313|EMBL:CBS90588.1},
+GN   AZOLI_p50166 {ECO:0000313|EMBL:CBS91166.1};
+OS   Azospirillum lipoferum (strain 4B).
+OG   Plasmid AZO_p4 {ECO:0000313|EMBL:CBS90588.1,
+OG   ECO:0000313|Proteomes:UP000005667}, and
+OG   Plasmid AZO_p5 {ECO:0000313|EMBL:CBS91166.1,
+OG   ECO:0000313|Proteomes:UP000005667}.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Rhodospirillaceae; Azospirillum.
+OX   NCBI_TaxID=862719 {ECO:0000313|EMBL:CBS90588.1, ECO:0000313|Proteomes:UP000005667};
+RN   [1] {ECO:0000313|EMBL:CBS90588.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=4B {ECO:0000313|EMBL:CBS90588.1};
+RC   PLASMID=AZO_p4 {ECO:0000313|EMBL:CBS90588.1}, and
+RC   AZO_p5 {ECO:0000313|EMBL:CBS91166.1};
+RA   Wisniewski-Dy F., Borziak K., Khalsa-Moyers G., Alexandre G.,
+RA   Sukharnikov L.O., Wuichet K., Hurst G.H., McDonald W.H., Robertson J.S.,
+RA   Barbe V., Calteau A., Rouy Z., Mangenot S., Prigent-Combaret C.,
+RA   Normand P., Boyer M., Siguier P., Dessaux Y., Elmerich C., Condemine G.,
+RA   Krishnen G., Kennedy I., Paterson A.H., Gonz lez.V., Mavingui P.,
+RA   Zhulin I.B.;
+RT   "Azospirillum genomes reveal transition of bacteria from aquatic to
+RT   terrestrial environments.";
+RL   PLoS Genet. 7:e1002430-e1002430(2011).
+RN   [2] {ECO:0000313|Proteomes:UP000005667}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=4B {ECO:0000313|Proteomes:UP000005667};
+RX   PubMed=22216014; DOI=10.1371/journal.pgen.1002430;
+RA   Wisniewski-Dye F., Borziak K., Khalsa-Moyers G., Alexandre G.,
+RA   Sukharnikov L.O., Wuichet K., Hurst G.B., McDonald W.H., Robertson J.S.,
+RA   Barbe V., Calteau A., Rouy Z., Mangenot S., Prigent-Combaret C.,
+RA   Normand P., Boyer M., Siguier P., Dessaux Y., Elmerich C., Condemine G.,
+RA   Krishnen G., Kennedy I., Paterson A.H., Gonzalez V., Mavingui P.,
+RA   Zhulin I.B.;
+RT   "Azospirillum genomes reveal transition of bacteria from aquatic to
+RT   terrestrial environments.";
+RL   PLoS Genet. 7:E1002430-E1002430(2011).
+RN   [3] {ECO:0000313|EMBL:CBS90588.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=4B {ECO:0000313|EMBL:CBS90588.1};
+RC   PLASMID=AZO_p4 {ECO:0000313|EMBL:CBS90588.1}, and
+RC   AZO_p5 {ECO:0000313|EMBL:CBS91166.1};
+RA   Genoscope - CEA;
+RL   Submitted (NOV-2011) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FQ311872; CBS90588.1; -; Genomic_DNA.
+DR   EMBL; FQ311873; CBS91166.1; -; Genomic_DNA.
+DR   RefSeq; WP_014189441.1; NC_016624.1.
+DR   EnsemblBacteria; CBS90588; CBS90588; AZOLI_p40192.
+DR   EnsemblBacteria; CBS91166; CBS91166; AZOLI_p50166.
+DR   KEGG; ali:AZOLI_p40192; -.
+DR   KEGG; ali:AZOLI_p50166; -.
+DR   HOGENOM; CLU_031365_1_1_5; -.
+DR   OMA; DIRARWG; -.
+DR   OrthoDB; 1456257at2; -.
+DR   Proteomes; UP000005667; Plasmid AZO_p4.
+DR   Proteomes; UP000005667; Plasmid AZO_p5.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015658; F:branched-chain amino acid transmembrane transporter activity; IEA:InterPro.
+DR   CDD; cd06581; TM_PBP1_LivM_like; 1.
+DR   InterPro; IPR001851; ABC_transp_permease.
+DR   InterPro; IPR021807; LivHM_N.
+DR   InterPro; IPR043428; LivM-like.
+DR   PANTHER; PTHR30482; PTHR30482; 1.
+DR   Pfam; PF02653; BPD_transp_2; 1.
+DR   Pfam; PF11862; DUF3382; 1.
+PE   4: Predicted;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}; Plasmid {ECO:0000313|EMBL:CBS90588.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000005667};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        21..43
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        63..80
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        85..102
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        108..133
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        154..172
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        178..198
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        205..224
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        230..254
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        261..281
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        329..348
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        381..400
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        412..441
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        453..470
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          24..84
+FT                   /note="DUF3382"
+FT                   /evidence="ECO:0000259|Pfam:PF11862"
+SQ   SEQUENCE   496 AA;  52900 MW;  6701F3196E45C53C CRC64;
+     MTMHSNTVSS SGRAATRGVD WAATVKDAGL AAFVALLLTV PLVGLRTVDR PTGLGIEARP
+     EEVVASLLLV FFGRLGLGLI RQGMALPVLI LALVCAGIGL LLPMPTQVLR LVLVLGGGVI
+     AIRAAMTVAT GRSKLSQADR DKRMDRVAAK VQHASRYIGP VAVAFAVVLP FTPLADRMIL
+     DIGILLLTYI MLGWGLNIVV GLAGLLDLGY VAFYAVGAYS YALLAHYFGL SFWVCLPLAG
+     VLAAISGVLL GFPVLRLRGD YFAIVTLGFG EIIRIILVNW YQFTGGPNGI SGIPRPSFFG
+     IADFSRSPAE GMAAFHEMFG LEFSPLHRII FLYYLILALA LVVNLFTLRV RKLPLGRAWE
+     ALREDDIACA SLGINRTNMK LAAFAIAAMF GGFAGSFFAT RQGFISPESF TFIESAIILA
+     IVVLGGMGSQ IGVVVATLLV IGLPEAFREL ADYRMLAFGA GMVVIMLWRP RGLLAHRDPT
+     ILLHGGKNPA ATGAAK
+//
+ID   G7Z494_AZOL4            Unreviewed;       696 AA.
+AC   G7Z494;
+DT   25-JAN-2012, integrated into UniProtKB/TrEMBL.
+DT   25-JAN-2012, sequence version 1.
+DT   02-DEC-2020, entry version 54.
+DE   SubName: Full=Putative recombinase {ECO:0000313|EMBL:CBS86233.1};
+DE   SubName: Full=Putative resolvase {ECO:0000313|EMBL:CBS91537.1};
+GN   OrderedLocusNames=AZOLI_0890 {ECO:0000313|EMBL:CBS86233.1},
+GN   AZOLI_p60120 {ECO:0000313|EMBL:CBS91537.1};
+OS   Azospirillum lipoferum (strain 4B).
+OG   Plasmid AZO_p6 {ECO:0000313|EMBL:CBS91537.1,
+OG   ECO:0000313|Proteomes:UP000005667}.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Rhodospirillaceae; Azospirillum.
+OX   NCBI_TaxID=862719 {ECO:0000313|EMBL:CBS86233.1, ECO:0000313|Proteomes:UP000005667};
+RN   [1] {ECO:0000313|Proteomes:UP000005667}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=4B {ECO:0000313|Proteomes:UP000005667};
+RX   PubMed=22216014; DOI=10.1371/journal.pgen.1002430;
+RA   Wisniewski-Dye F., Borziak K., Khalsa-Moyers G., Alexandre G.,
+RA   Sukharnikov L.O., Wuichet K., Hurst G.B., McDonald W.H., Robertson J.S.,
+RA   Barbe V., Calteau A., Rouy Z., Mangenot S., Prigent-Combaret C.,
+RA   Normand P., Boyer M., Siguier P., Dessaux Y., Elmerich C., Condemine G.,
+RA   Krishnen G., Kennedy I., Paterson A.H., Gonzalez V., Mavingui P.,
+RA   Zhulin I.B.;
+RT   "Azospirillum genomes reveal transition of bacteria from aquatic to
+RT   terrestrial environments.";
+RL   PLoS Genet. 7:E1002430-E1002430(2011).
+RN   [2] {ECO:0000313|EMBL:CBS86233.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=4B {ECO:0000313|EMBL:CBS86233.1};
+RC   PLASMID=AZO_p6 {ECO:0000313|EMBL:CBS91537.1};
+RA   Wisniewski-Dy F., Borziak K., Khalsa-Moyers G., Alexandre G.,
+RA   Sukharnikov L.O., Wuichet K., Hurst G.H., McDonald W.H., Robertson J.S.,
+RA   Barbe V., Calteau A., Rouy Z., Mangenot S., Prigent-Combaret C.,
+RA   Normand P., Boyer M., Siguier P., Dessaux Y., Elmerich C., Condemine G.,
+RA   Krishnen G., Kennedy I., Paterson A.H., Gonz lez.V., Mavingui P.,
+RA   Zhulin I.B.;
+RT   "Azospirillum genomes reveal transition of bacteria from aquatic to
+RT   terrestrial environments.";
+RL   PLoS Genet. 7:e1002430-e1002430(2011).
+RN   [3] {ECO:0000313|EMBL:CBS86233.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=4B {ECO:0000313|EMBL:CBS86233.1};
+RC   PLASMID=AZO_p6 {ECO:0000313|EMBL:CBS91537.1};
+RA   Genoscope - CEA;
+RL   Submitted (NOV-2011) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FQ311868; CBS86233.1; -; Genomic_DNA.
+DR   EMBL; FQ311874; CBS91537.1; -; Genomic_DNA.
+DR   RefSeq; WP_014189963.1; NC_016622.1.
+DR   EnsemblBacteria; CBS86233; CBS86233; AZOLI_0890.
+DR   EnsemblBacteria; CBS91537; CBS91537; AZOLI_p60120.
+DR   KEGG; ali:AZOLI_0890; -.
+DR   KEGG; ali:AZOLI_p60120; -.
+DR   HOGENOM; CLU_025318_2_0_5; -.
+DR   OMA; YCIEASR; -.
+DR   OrthoDB; 1791095at2; -.
+DR   Proteomes; UP000005667; Chromosome.
+DR   Proteomes; UP000005667; Plasmid AZO_p6.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0000150; F:recombinase activity; IEA:InterPro.
+DR   Gene3D; 3.40.50.1390; -; 1.
+DR   InterPro; IPR011109; DNA_bind_recombinase_dom.
+DR   InterPro; IPR006119; Resolv_N.
+DR   InterPro; IPR036162; Resolvase-like_N_sf.
+DR   InterPro; IPR025827; Zn_ribbon_recom_dom.
+DR   Pfam; PF07508; Recombinase; 1.
+DR   Pfam; PF00239; Resolvase; 1.
+DR   Pfam; PF13408; Zn_ribbon_recom; 1.
+DR   SMART; SM00857; Resolvase; 1.
+DR   SUPFAM; SSF53041; SSF53041; 1.
+DR   PROSITE; PS51737; RECOMBINASE_DNA_BIND; 1.
+DR   PROSITE; PS51736; RECOMBINASES_3; 1.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils}; Plasmid {ECO:0000313|EMBL:CBS91537.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000005667}.
+FT   DOMAIN          13..162
+FT                   /note="Resolvase/invertase-type recombinase catalytic"
+FT                   /evidence="ECO:0000259|PROSITE:PS51736"
+FT   DOMAIN          169..313
+FT                   /note="Recombinase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51737"
+FT   COILED          445..472
+FT                   /evidence="ECO:0000256|SAM:Coils"
+SQ   SEQUENCE   696 AA;  77601 MW;  A1F648560C3B9B5B CRC64;
+     MSPKITADHL GRGAAIYVRQ STPGQLINHT ESRRRQYDLA DAARAAGFVD VMIIDEDLGR
+     SGSGLESRPG FQKLVAAVCA GTVGAVYCIE ASRLARNGRD WHHLIDLCAL AGALVVDPDG
+     VYDPRLLNDR LLLGLKGTMS EYELSLLRQR GIEARDGKAR RGELRFTLPP GYCWNEAGRI
+     EIDPDERVAG AIRMLFSKFR ELGSARQVFL WARAAELSLP VVRRNLIACK ILWQPPAYHT
+     VIQVLQNPIY AGAYVFGRRG NRTRVVEGRA RKTSGHKRER TEWNTLLRDN HEGYITWAEF
+     EEHQRMLEEN AHMQKRAARK AGRGGRALLT GLVRCGHCGR KMRVFYGMQS GHAHRYQCRG
+     DDAHVGVGLC IGIGGIRVDR AVVAQMLEAV SARAVEAALL AADQAAAAGA EERAALEREL
+     EAARYDASLA ARRYDLVEPE KRHVVRELEA RWNTALERVA QIERRIAEAE ARSSARPRVN
+     RAALLGLAHD LSAAWNAPTA DARTRQRLTR LLVEEVVIDL DDAAYEAVLR IHWIGGRHTE
+     LRVPRARTGR RADKAHPGAV EVVRKLSGHW PDHEISVTLN RMKCRSDNGE TWTTVKVRLL
+     RERLGLSDFD PTVPRPETLT ADKAAKRLGI SIPSVHRLIQ RGILPATQLV PSAPWHIPMA
+     ALDTDAVQTG VNEIKARRPK NLIDYQRDET MLLPGL
+//
